@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Nunito", sans-serif;
-  color: #444;
+
 }
 
 a {
@@ -21,11 +21,19 @@ a {
 a:hover {
   color: #45beff;
   text-decoration: none
+  
 }
 
 
 h2 {
+  color: #FF9300;
+  text-align: left;
+}
+
+h4{
   font-weight: bold;
+  color: #0079C1;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -315,6 +323,7 @@ h2 {
 #hero .carousel-container {
   display: flex;
   justify-content: center;
+  background-image: ;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -353,6 +362,7 @@ h2 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
+  float: left;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
@@ -360,10 +370,10 @@ h2 {
   color: #000;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #0079C1;
 }
 #hero .btn-get-started:hover {
-  background: #68A4C4;
+  background: #0079C1;
   color: #000;
   text-decoration: none;
 }
