@@ -91,6 +91,7 @@ body {
   .navbar {
     padding: 0;
     color:#fff;
+    font-weight: bold;
   }
   .navbar ul {
     margin: 0;
@@ -414,6 +415,10 @@ body {
   .section-sc{
     background-color: #ececec;
   }
+
+  .section-cr{
+    background-color: #FFFBEE;
+  }
   
   .section-title-sc {
     padding-top: 50px;
@@ -461,6 +466,24 @@ body {
   }
   .section-title p {
     margin-bottom: 0;
+  }
+
+  /* VISI DAN MISI */
+
+  .visi-misi{
+      margin-top: -80px;
+      padding-bottom: 120px;
+  }
+
+  .visi-misi-title{
+      padding-left: 15px;
+      width: 300px;
+      border-left: 4px solid #FF9300;
+      background-color: #FFE89E;
+  }
+
+  .visi-misi-list{
+      font-size: 20px;
   }
   
   /*--------------------------------------------------------------
