@@ -17,8 +17,13 @@ body {
   
   
   .title-hero {
-    color: #FF9300 !important;
-    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .title-hero-2 {
+    font-size: 80px !important;
+    font-weight: bold;
   }
   
   .desc-hero{
@@ -28,7 +33,11 @@ body {
   }
   
   .oren{
-    color:#FF9300;
+    color:#FF9300 !important;
+  }
+
+  .putih{
+      color: #fff !important;
   }
   
   
@@ -46,7 +55,7 @@ body {
     background: none;
   }
   #header.header-scrolled {
-    background: #fff;
+    background: rgb(53, 53, 53);
     height: 80px;
     box-shadow: 5px 5px 5px #aaaaaa;
   }
@@ -81,7 +90,7 @@ body {
   */
   .navbar {
     padding: 0;
-    color:#000;
+    color:#fff;
   }
   .navbar ul {
     margin: 0;
@@ -100,7 +109,7 @@ body {
     padding: 10px 0 10px 30px;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    color: #000;
+    color: #fff;
     white-space: nowrap;
     transition: 0.3s;
   }
