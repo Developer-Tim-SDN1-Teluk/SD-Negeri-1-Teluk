@@ -17,7 +17,7 @@ a:hover {
 
 
 .title-hero {
-  color: #FF9300;
+  color: #FF9300 !important;
   text-align: left;
 }
 
@@ -369,7 +369,7 @@ a:hover {
 }
 #hero .btn-get-started:hover {
   background: #0079C1;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 @media (min-width: 1024px) {
@@ -488,9 +488,16 @@ section {
 }
 
 .section-title-sc {
+  padding-top: 50px;
   text-align: center;
   padding-bottom: 10px;
   background-color: #ececec;
+}
+
+.section-title-lg {
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #fff;
 }
 
 .section-title {
@@ -566,6 +573,22 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+
+/*--------------------------------------------------------------
+# Ekstra
+--------------------------------------------------------------*/
+
+.ekstra{
+  padding-bottom: 20px;
+}
+
+.list-ekstra{
+  font-size: 22px;
+}
+
+.list-ekstra-img{
+  padding-right: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -655,6 +678,17 @@ section {
 
 .juara-title{
   min-height: 100px;
+}
+
+/*--------------------------------------------------------------
+# Berita
+--------------------------------------------------------------*/
+.card-berita{
+  
+}
+.card-title{
+  text-align: left;
+  min-height: 80px;
 }
 
 /*--------------------------------------------------------------
