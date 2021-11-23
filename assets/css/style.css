@@ -1,13 +1,4 @@
-/**
-* Template Name: Moderna - v4.8.0
-* Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Nunito", sans-serif;
 
@@ -25,15 +16,19 @@ a:hover {
 }
 
 
-h2 {
+.title-hero {
   color: #FF9300;
   text-align: left;
 }
 
-h4{
+.desc-hero{
   font-weight: bold;
   color: #0079C1;
   text-align: left;
+}
+
+.oren{
+  color:#FF9300;
 }
 
 /*--------------------------------------------------------------
