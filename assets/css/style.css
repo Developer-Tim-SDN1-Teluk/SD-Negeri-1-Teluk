@@ -661,6 +661,33 @@ section {
 .prestasi .icon-box-green:hover {
   border-color: #41cf2e;
 }
+.prestasi .icon-box-pink .icon {
+  background: #fceef3;
+}
+.prestasi .icon-box-pink .icon i {
+  color: #ff689b;
+}
+.prestasi .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+.prestasi .icon-box-cyan .icon {
+  background: #e6fdfc;
+}
+.prestasi .icon-box-cyan .icon i {
+  color: #3fcdc7;
+}
+.prestasi .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+.prestasi .icon-box-green .icon {
+  background: #eafde7;
+}
+.prestasi .icon-box-green .icon i {
+  color: #41cf2e;
+}
+.prestasi .icon-box-green:hover {
+  border-color: #41cf2e;
+}
 .prestasi .icon-box-blue .icon {
   background: #e1eeff;
 }
@@ -759,12 +786,18 @@ section {
 }
 .why-us .video-box {
   position: relative;
+<<<<<<< HEAD
   margin-right: 50px;
+=======
+>>>>>>> parent of 5d91844 (minimalize css & js)
 }
 .why-us .video-box img {
   padding-top: 15px;
   padding-bottom: 15px;
+<<<<<<< HEAD
  
+=======
+>>>>>>> parent of 5d91844 (minimalize css & js)
 }
 .why-us .play-btn {
   width: 94px;
@@ -1936,6 +1969,7 @@ section {
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 
 /*--------------------------------------------------------------
 # Kontak
@@ -1945,6 +1979,8 @@ list-style: none;
 display: none;
 }
 
+=======
+>>>>>>> parent of 5d91844 (minimalize css & js)
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
