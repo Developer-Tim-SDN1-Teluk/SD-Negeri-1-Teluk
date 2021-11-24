@@ -524,84 +524,6 @@ body {
   }
   
   /*--------------------------------------------------------------
-  # Ekstra
-  --------------------------------------------------------------*/
-  
-  .ekstra{
-    padding-bottom: 20px;
-  }
-  
-  .list-ekstra{
-    font-size: 22px;
-  }
-  
-  .list-ekstra-img{
-    padding-right: 10px;
-  }
-  
-  /*--------------------------------------------------------------
-  # Prestasi
-  --------------------------------------------------------------*/
-  .prestasi {
-    padding-bottom: 20px;
-  }
-  .prestasi .icon-box {
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    margin: 0 0 40px 0;
-    background: #fff;
-    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    border: 1px solid #fff;
-  }
-  .prestasi .icon {
-    margin: 0 auto 20px auto;
-    padding-top: 17px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    width: 72px;
-    height: 72px;
-  }
-  .prestasi .icon i {
-    font-size: 36px;
-    line-height: 1;
-  }
-  .prestasi .title {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-  }
-  .prestasi .title a {
-    color: #111;
-  }
-  .prestasi .description {
-    font-size: 15px;
-    line-height: 28px;
-    margin-bottom: 0;
-  }
-  .prestasi .icon-box-blue .icon {
-    background: #e1eeff;
-  }
-  .prestasi .icon-box-blue .icon i {
-    color: #2282ff;
-  }
-  
-  .prestasi .icon-box-blue{
-    border-bottom: 3px solid #2282ff;
-  }
-  
-  .prestasi .icon-box-blue:hover {
-    border-color: #2282ff;
-  }
-  
-  .juara-title{
-    min-height: 100px;
-  }
-  
-  /*--------------------------------------------------------------
   # Berita
   --------------------------------------------------------------*/
   
@@ -617,31 +539,6 @@ body {
     border-radius: 5px;
   }
   
-  .btn-berita{
-    border-radius: 20px;
-  }
-  
-  /*--------------------------------------------------------------
-  # Jumlah Karyawan
-  --------------------------------------------------------------*/
-  
-  
-  .card-jumlah-karyawan{
-    border: 0px;
-  }
-  
-  .title-jumlah-karyawan{
-    position: absolute;
-    margin-left: 10px;
-    font-size: 18px;
-  }
-  
-  .title-jumlah-karyawn-angka{
-    position: absolute;
-    margin-left: 80px;
-    margin-top: -35px;
-    font-size: 25px;
-  }
   
   .tengah{
     margin-left: auto;
@@ -669,10 +566,7 @@ body {
       opacity: 0;
     }
   }
-  
-  .kontak-list{
-    color: black;
-  }
+
   
   /*--------------------------------------------------------------
   # Footer
