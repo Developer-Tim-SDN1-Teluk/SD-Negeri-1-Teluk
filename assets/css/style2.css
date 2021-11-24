@@ -565,7 +565,18 @@ body {
     -moz-box-shadow: -6px 9px 48px -12px rgba(0,0,0,0.36);
      border-radius: 5px;
   }
-
+  /*--------------------------------------------------------------
+  # Fasilitas
+  --------------------------------------------------------------*/
+  .fasilitas-title{
+    text-align: center;
+    width: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 4px solid #FF9300;
+    border-right: 4px solid #FF9300;
+    background-color: #FFE89E;
+  }
 
   
   /*--------------------------------------------------------------
