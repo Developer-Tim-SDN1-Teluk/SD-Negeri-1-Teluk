@@ -82,6 +82,7 @@ a:hover {
 .navbar {
   padding: 0;
   color:#000;
+  font-weight: bold;
 }
 .navbar ul {
   margin: 0;
@@ -112,51 +113,40 @@ a:hover {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #a2cce3;
 }
-.navbar .dropdown ul {
-  display: block;
+/* Dropdown Button */
+.dropbtn {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
   position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  background-color: #fff;
+  min-width: 160px;
+  z-index: 1;
 }
-.navbar .dropdown ul li {
-  min-width: 200px;
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  margin-left: 20px;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-  color: #1c3745;
-}
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #68A4C4;
-}
-.navbar .dropdown:hover > ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-.navbar .dropdown .dropdown:hover > ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background:none;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -311,16 +301,7 @@ a:hover {
   margin: 0 auto 30px auto;
   color: #000;
 }
-#hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
-}
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
-}
+
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -577,27 +558,6 @@ section {
   margin-right: auto;
 }
 
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
 
 .kontak-list{
   color: black;
