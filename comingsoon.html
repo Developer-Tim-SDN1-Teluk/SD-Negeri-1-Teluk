@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>SD Negeri 1 Teluk</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/kemendikbud.png" rel="icon">
+    <link href="assets/img/kemendikbud.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS-->
+    <link href="assets/css/style2.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <main id="main">
+        <!-- Coming soon -->
+        <section class="comingsoon">
+            <div class="container">
+                <div class="title-hero-2 text-center">
+                    <span class="oren title-hero-2">Cooming Soon</span>
+                </div>
+                <div class="text-center">
+                    <span class="oren"><p>You will be redirected in <span id="counter">10</span> second(s).</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+
+        <script type="text/javascript">
+            function countdown() {
+                var i = document.getElementById('counter');
+                if (parseInt(i.innerHTML) <= 0) {
+                    location.href = 'index.html';
+                }
+                if (parseInt(i.innerHTML) != 0) {
+                    i.innerHTML = parseInt(i.innerHTML) - 1;
+                }
+            }
+            setInterval(function() {
+                countdown();
+            }, 1000);
+        </script>
+    </main>
+</body>
+
+</html>
