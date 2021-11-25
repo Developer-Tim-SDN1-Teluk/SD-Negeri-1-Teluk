@@ -509,7 +509,16 @@ body {
   .visi-misi-list{
       font-size: 20px;
   }
+
+  /* Title */
   
+  .left-oren-title{
+    padding-left: 15px;
+    width: 300px;
+    border-left: 4px solid #FF9300;
+    background-color: #FFE89E;
+  }
+
   /*--------------------------------------------------------------
   # Berita
   --------------------------------------------------------------*/
@@ -542,10 +551,15 @@ body {
     border-radius: 5px;
   }
 
-  .btn-berita{
+  .btn-oren{
     border-radius: 25px;
     background-color: #FF9300;
     color:#FFFFFF;
+  }
+  .btn-oren:hover{
+    background-color: #fff;
+    color:#FF9300;
+    border:2px solid #FF9300;
   }
   .card-body{
     font-size: 10px;
